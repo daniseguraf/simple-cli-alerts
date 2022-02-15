@@ -24,18 +24,18 @@ export default (options) => {
 	const printName = name ? name : type.toUpperCase();
 
 	if (type === `info`) {
-		console.log(`\n${sym.info} ${blueInverse(`${printName}`)} ${blue(msg)}\n`);
+		console.log(`\n${sym.info} ${blueInverse(` ${printName} `)} ${blue(msg)}\n`);
 	}
 
 	if (type === `success`) {
-		console.log(`\n${sym.success} ${greenInverse(`${printName}`)} ${green(msg)}\n`);
+		console.log(`\n${sym.success} ${greenInverse(` ${printName} `)} ${green(msg)}\n`);
 	}
 
 	if (type === `warning`) {
-		console.log(`\n${sym.warning} ${yellowInverse(`${printName}`)} ${yellow(msg)}\n`);
+		console.log(`\n${sym.warning} ${yellowInverse(` ${printName} `)} ${yellow(msg)}\n`);
 	}
 
 	if (type === `error`) {
-		console.log(`\n${sym.error} ${redInverse(`${printName}`)} ${red(msg)}\n`);
+		console.log(`\n${sym.error} ${redInverse(` ${printName} `)} ${red(msg)}\n`);
 	}
 };
