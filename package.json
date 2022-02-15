@@ -1,0 +1,26 @@
+{
+	"name": "simple-cli-alerts",
+	"version": "1.0.0",
+	"description": "Cross platform CLI Alerts with colors & colored symbols for success, info, warning and error. Works on macOS, Linux and Windows.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "node test.js",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"keywords": [
+		"cli",
+		"cli-alerts",
+		"node.js",
+		"javascript"
+	],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^2.5.1"
+	},
+	"dependencies": {
+		"chalk": "^5.0.0",
+		"log-symbols": "^5.1.0"
+	}
+}
